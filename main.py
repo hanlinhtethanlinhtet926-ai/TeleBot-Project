@@ -166,5 +166,5 @@ def admin_approve_order(message):
             bot.reply_to(message, "⚠️ ဤမက်ဆေ့ခ်ျသည် Order မက်ဆေ့ခ်ျ မဟုတ်ပါ သို့မဟုတ် User ID မပါရှိပါ။")
     else:
         bot.reply_to(message, "💡 ကျေးဇူးပြု၍ User ရဲ့ Order ပြေစာ မက်ဆေ့ခ်ျကို **Reply** ထောက်ပြီးမှ `/yes` လို့ ရိုက်ပို့ပေးပါဗျာ။")
-
+bot.remove_webhook()
 bot.infinity_polling()
