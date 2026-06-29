@@ -5,7 +5,7 @@ from telebot import types
 API_TOKEN = '8993842721:AAGxapD-bEP22dll8-nLy_0ThMUj1mTPmwc' 
 
 # ⚠️ သင့်ရဲ့ ကိုယ်ပိုင် Account Chat ID ကို ဒီမှာ ပြောင်းထည့်ပေးပါ
-ADMIN_CHAT_ID = 8902469958  
+ADMIN_CHAT_ID = 8786773685
 
 bot = telebot.TeleBot(API_TOKEN)
 
